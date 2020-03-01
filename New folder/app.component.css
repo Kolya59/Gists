@@ -1,0 +1,32 @@
+.header {
+  alignment: center;
+  display: block;
+  text-align: center;
+  margin: 8%;
+  background: linear-gradient(180deg, #f00000, #f00000 16.67%, #ff8000 16.67%, #ff8000 33.33%, #ffff00 33.33%, #ffff00 50%, #007940 50%, #007940 66.67%, #4040ff 66.67%, #4040ff 83.33%, #a000c0 83.33%, #a000c0) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 8%;
+  padding: 5%;
+  border: 1px solid black;
+}
+
+.main-form > * {
+  width: 100%;
+}
+
+.button-list {
+  align-content: center;
+}
+
+.button-list mat-list-item {
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
